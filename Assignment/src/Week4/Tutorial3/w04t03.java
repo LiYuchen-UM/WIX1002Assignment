@@ -7,10 +7,10 @@ public class w04t03 {
         int x = 9, y = 10;
         System.out.println("a.");
         if (x < 10) 
-        if (y > 10)
-        System.out.println("*****");
-        else
-        System.out.println("#####");
+            if (y > 10)
+                System.out.println("*****");
+            else
+                System.out.println("#####");
         System.out.println("$$$$$");
         /* The output should be
         #####
@@ -21,8 +21,9 @@ public class w04t03 {
                 System.out.println("*****");
             else{
                 System.out.println("#####");
-
+                System.out.println("$$$$$");
             }
-    
-
+        }
+        
+    }
 }
